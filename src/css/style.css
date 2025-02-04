@@ -4,6 +4,11 @@
     outline: 0;
 }
 
+header {
+  background: #000;
+  padding: 20px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
