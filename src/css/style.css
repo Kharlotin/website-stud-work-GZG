@@ -660,6 +660,15 @@ background-color: rgba(255, 217, 0, 1);
 
 /* page error */
 
+.error-things{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
 .error-title{
     margin: 0;
     margin: 0 auto;
@@ -684,8 +693,8 @@ background-color: rgba(255, 217, 0, 1);
     font-family: Inria sans;
     position: relative;
     margin: 50px auto;
+    padding-left: 0;
     height: 800px;
-    padding-left: 400px;
   }
 
   .return-home{
@@ -704,5 +713,4 @@ background-color: rgba(255, 217, 0, 1);
     height: 50px;
     width: 225px;
     margin-top: 12px;
-    margin-left: 720px;
   }
