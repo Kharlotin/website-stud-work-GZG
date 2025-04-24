@@ -913,3 +913,41 @@ img {
     width: 225px;
     margin-top: 12px;
   }
+
+  @media (max-width: 480px) {
+    .error-things .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .error-board {
+        justify-content: center;
+        text-align: center;
+        gap: 0;
+    }
+
+    .error-title {
+        font-size: 32px;
+        max-width: 90%;
+    }
+
+    .error-dude {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .return-home {
+        margin-left: 0;
+        max-width: 225px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
