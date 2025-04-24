@@ -653,6 +653,70 @@ img {
     height: auto;
 }
 
+ /* Также под телефоны */
+@media (max-width: 480px) {
+    .GamesMark {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .games-header-title-1 .games-header-title-2 .games-header-caption{
+        padding-right: 45px;
+    }
+
+    .games-section {
+        padding: 20px;
+        gap: 32px;
+    }
+
+    .game {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .game-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .game-overlay {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 16px;
+        text-align: center;
+        background: black;
+    }
+
+    .game-caption {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .game-title-yellow {
+        display: none;
+    }
+
+    .game-title-content {
+        font-size: 36px;
+    }
+
+    .game-arrow {
+        width: 48px;
+        height: 48px;
+        padding: 12px;
+    }
+
+    .game-arrow img {
+        width: 50%;
+    }
+}
+
 /* для страницы Жоин ас*/
 
 .glassdoor-banner {
