@@ -370,6 +370,141 @@ background-color: rgba(255, 217, 0, 1);
     color: white;
     cursor: pointer;
 }
+/* под телефоны адаптация */
+@media (max-width: 480px) {
+.header_wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_menu {
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_menu_soc {
+    justify-content: center;
+}
+
+.location_wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer_wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu_footer_1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.menu_footer_2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer_links {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.meet_join_wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.meet_join_wrapper_item {
+    width: 100%;
+    max-width: 480px;
+}
+
+.meet_join_text_wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.btns {
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: none;
+}
+
+.title_1 {
+    font-size: 40px;
+    padding: 0 20px;
+}
+
+.title_2 {
+    font-size: 80px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img_back,
+.img_back_2 {
+    width: 100%;
+    max-width: 100%;
+    background: black;   
+    background-image: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns_item {
+    width: 180px;
+}
+
+.loc_img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.loc_title{
+    font-size: 30px;
+}
+
+.footer img {
+    max-width: 100px;
+    height: auto;
+}
+
+.header_menu_soc_item_img {
+    width: 32px;
+    height: 32px;
+}
+
+.menu_footer_2_item{
+    font-size: small;
+}
+
+.footer_links .header_menu_soc_item{
+    margin-left: 40px;
+}
+}
 
 /*Страница Наши Игры*/
 
